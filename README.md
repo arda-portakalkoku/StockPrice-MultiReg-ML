@@ -44,3 +44,4 @@ Modelim, eğitim verileri üzerinde **0.996 R² Skoru** elde ederek değişkenle
 
 ---
 **Hazırlayan:** Arda (@ardacodes)
+https://ardaportakalkoku.com/
