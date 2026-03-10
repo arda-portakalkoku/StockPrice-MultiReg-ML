@@ -10,7 +10,7 @@ from sklearn.metrics import r2_score
 model = LinearRegression()
 
 # read_excel yerine read_csv kullanıyoruz. dosyayı ml.py klasörüne attık ve xlsx formatında kaydettik.
-df = pd.read_csv('stockprice_prediction.py/ekonomik_veriler.csv')
+df = pd.read_csv('ekonomik_veriler.csv')
 
 #modelin eğitimi
 y=df['Hisse_Fiyati'].values # bağımlı değişken
@@ -74,4 +74,5 @@ for i in range(len(df)):
 # Kullanıcının girdiği dolar kuru ve tahmin edilen hisse fiyatını grafikte gösterelim
 plt.scatter(dolar,tahminedilen_fiyat[0], color='#27F5E0', label='Tahmin Edilen fiyat')
 plt.legend()
+
 plt.show()
