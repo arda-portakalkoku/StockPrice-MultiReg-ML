@@ -33,9 +33,10 @@ Bu model, Arthur Samuel'in tanımladığı gibi bilgisayara "açıkça programla
 
 1. Repoyu bilgisayarınıza indirin.
 2. Gerekli kütüphaneleri yükleyin: `pip install pandas scikit-learn matplotlib`.
-3. `finansmodel.py` dosyasını çalıştırın.
-4. Terminale güncel ekonomik verileri girin (veya Ar-Ge gibi bilmediğiniz verileri boş bırakarak ortalama değer atanmasını sağlayın).
-5. Grafikteki **Kırmızı Yıldız** ile kendi tahmininizi görün!
+3. `StockPrice-MultiReg-ML` dosyasını çalıştırın.
+ `dataset ile modeli aynı dosyaya alınız ve aldığınız dosyadaki datasetin yolunu koddaki gerekli yere yazınız örnek:df = pd.read_csv('stockprice_prediction.py/ekonomik_veriler.csv')`
+5. Terminale güncel ekonomik verileri girin (veya Ar-Ge gibi bilmediğiniz verileri boş bırakarak ortalama değer atanmasını sağlayın).
+6. Grafikteki **Kırmızı Yıldız** ile kendi tahmininizi görün!
 
 ## 📉 Model Performansı
 
