@@ -53,8 +53,8 @@ print("b0 (sabit terim):", b0)
 y_pred = model.predict(X)
 r2 = r2_score(y, y_pred)#modelin doğruluk oranı(1'e yakınlaştıkça modelin doğruluğu artar)
 print("R² Skoru:", r2)
-#hisse fiyatı=b0 + b1*Dolar_Kuru + b2*Faiz_Orani + b3*Arge_Harcamasi + b4*BIST_100_Endeks + b5*Enflasyon_Orani
 
+#verileri göselleştirme
 plt.scatter(df['Dolar_Kuru'], df['Hisse_Fiyati'], color='blue', label='Dolar Kuru')
 plt.grid()
 plt.xlabel('Dolar Kuru')
@@ -76,3 +76,4 @@ plt.scatter(dolar,tahminedilen_fiyat[0], color='#27F5E0', label='Tahmin Edilen f
 plt.legend()
 
 plt.show()
+
